@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *priceTextField;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+- (IBAction)onCaculateButtonTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
 
 @end
 
